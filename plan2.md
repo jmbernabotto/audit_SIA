@@ -42,16 +42,25 @@ Plan 2
     **5.3 Vérification de la protection des données et de la confidentialité :** Assurez-vous que l'IA protège les données sensibles des utilisateurs.
 
 6. **Audit de l'infrastructure technologique**
-    6.1 Évaluation de l'infrastructure informatique et réseau : Examinez si l'infrastructure informatique et réseau de l'entreprise est suffisante pour supporter les systèmes d'IA. Par exemple, si les serveurs de l'entreprise sont assez puissants pour gérer la charge de travail de l'IA.
-    6.2 Évaluation de la sécurité des systèmes d'IA : Assurez-vous que les systèmes d'IA sont sécurisés contre les menaces, comme le piratage. C'est comme avoir un coffre-fort pour protéger vos objets de valeur.
-    6.3 Évaluation de la gestion des données : Vérifiez si l'entreprise a des procédures efficaces pour la gestion des données, comme la collecte, le stockage et l'analyse des données. C'est comme s'assurer que la bibliothèque a un bon système pour organiser et protéger ses livres.
+    
+    **6.1 Évaluation de l'infrastructure informatique et réseau :** Examinez si l'infrastructure informatique et réseau de l'entreprise est suffisante pour supporter les systèmes d'IA. Par exemple, si les serveurs de l'entreprise sont assez puissants pour gérer la charge de travail de l'IA.
+    
+    **6.2 Évaluation de la sécurité des systèmes d'IA :** Assurez-vous que les systèmes d'IA sont sécurisés contre les menaces, comme le piratage. C'est comme avoir un coffre-fort pour protéger vos objets de valeur.
+    
+    **6.3 Évaluation de la gestion des données :** Vérifiez si l'entreprise a des procédures efficaces pour la gestion des données, comme la collecte, le stockage et l'analyse des données. C'est comme s'assurer que la bibliothèque a un bon système pour organiser et protéger ses livres.
 
 7. **Audit des compétences et de la formation en matière d'IA**
-    7.1 Évaluation des compétences en IA au sein de l'entreprise : Évaluez si les employés de l'entreprise ont les compétences nécessaires pour travailler avec l'IA. Par exemple, si les ingénieurs savent comment programmer et maintenir les systèmes d'IA.
-    7.2 Évaluation des besoins de formation en IA : Identifiez si les employés ont besoin de plus de formation pour travailler efficacement avec l'IA.
-    7.3 Propositions pour améliorer les compétences en IA : Proposez des moyens d'améliorer les compétences en IA, comme des formations ou des ateliers.
+    
+    **7.1 Évaluation des compétences en IA au sein de l'entreprise :** Évaluez si les employés de l'entreprise ont les compétences nécessaires pour travailler avec l'IA. Par exemple, si les ingénieurs savent comment programmer et maintenir les systèmes d'IA.
+    
+    **7.2 Évaluation des besoins de formation en IA :** Identifiez si les employés ont besoin de plus de formation pour travailler efficacement avec l'IA.
+    
+    **7.3 Propositions pour améliorer les compétences en IA :** Proposez des moyens d'améliorer les compétences en IA, comme des formations ou des ateliers.
 
 8. **Recommandations et plan d'action**
-    8.1 Synthèse des constatations de l'audit : Résumez les principales conclusions de l'audit. Par exemple, "Le chatbot fonctionne bien, mais l'entreprise a besoin d'améliorer la sécurité de ses systèmes d'IA".
-    8.2 Élaboration d'un plan d'action pour répondre aux défis identifiés : Proposez un plan pour résoudre les problèmes identifiés pendant l'audit. Par exemple, "L'entreprise devrait investir dans une meilleure infrastructure de sécurité pour protéger ses systèmes d'IA".
-    8.3 Propositions pour le suivi de l'audit : Proposez des moyens de suivre les progrès de l'entreprise dans la mise en œuvre des recommandations de l'audit. Par exemple, "Je propose un audit de suivi dans six mois pour vérifier les progrès de l'entreprise".
+    
+    **8.1 Synthèse des constatations de l'audit :** Résumez les principales conclusions de l'audit. Par exemple, "Le chatbot fonctionne bien, mais l'entreprise a besoin d'améliorer la sécurité de ses systèmes d'IA".
+    
+    **8.2 Élaboration d'un plan d'action pour répondre aux défis identifiés :** Proposez un plan pour résoudre les problèmes identifiés pendant l'audit. Par exemple, "L'entreprise devrait investir dans une meilleure infrastructure de sécurité pour protéger ses systèmes d'IA".
+    
+    **8.3 Propositions pour le suivi de l'audit :** Proposez des moyens de suivre les progrès de l'entreprise dans la mise en œuvre des recommandations de l'audit. Par exemple, "Je propose un audit de suivi dans six mois pour vérifier les progrès de l'entreprise".
