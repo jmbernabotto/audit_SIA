@@ -28,14 +28,18 @@ Plan 2
     
     **4.1 Évaluation de la stratégie d'IA de l'entreprise :** Examinez si l'entreprise a une vision claire pour l'utilisation de l'IA.
     
-    **4.2 Évaluation des politiques et procédures de l'IA : **Vérifiez si l'entreprise a des règles claires pour l'utilisation de l'IA.
+    **4.2 Évaluation des politiques et procédures de l'IA :** Vérifiez si l'entreprise a des règles claires pour l'utilisation de l'IA.
     
     **4.3 Évaluation de la gestion des risques liés à l'IA :** Vérifiez si l'entreprise a identifié les risques potentiels de l'IA et a des plans pour les atténuer.
 
 5. **Audit de la conformité de l'IA**
-    5.1 Vérification de la conformité légale et réglementaire des systèmes d'IA : Assurez-vous que l'IA respecte toutes les lois et réglementations pertinentes, comme le RGPD en Europe.
-    5.2 Évaluation de l'éthique des systèmes d'IA : Examinez si l'IA est utilisée de manière éthique, par exemple, en évitant les biais dans les décisions.
-    5.3 Vérification de la protection des données et de la confidentialité : Assurez-vous que l'IA protège les données sensibles des utilisateurs.
+
+
+    **5.1 Vérification de la conformité légale et réglementaire des systèmes d'IA :** Assurez-vous que l'IA respecte toutes les lois et réglementations pertinentes, comme le RGPD en Europe.
+    
+    **5.2 Évaluation de l'éthique des systèmes d'IA :** Examinez si l'IA est utilisée de manière éthique, par exemple, en évitant les biais dans les décisions.
+    
+    **5.3 Vérification de la protection des données et de la confidentialité :** Assurez-vous que l'IA protège les données sensibles des utilisateurs.
 
 6. **Audit de l'infrastructure technologique**
     6.1 Évaluation de l'infrastructure informatique et réseau : Examinez si l'infrastructure informatique et réseau de l'entreprise est suffisante pour supporter les systèmes d'IA. Par exemple, si les serveurs de l'entreprise sont assez puissants pour gérer la charge de travail de l'IA.
