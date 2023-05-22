@@ -98,8 +98,8 @@ Plan 2
 D'accord, je vais développer chaque section avec des détails supplémentaires et des exemples concrets.
 
 1. *Introduction*
-     **1.1 Objectif de l'audit :** Clarifiez le but de l'audit pour toutes les parties prenantes. Par exemple, améliorer l'efficacité des systèmes d'IA, réduire les risques, etc.
-     **1.2 Rappel des principes de base de l'IA :** Expliquez brièvement les concepts de base de l'IA, comme un cerveau électronique qui apprend à partir de données pour prendre des décisions.
+     -**1.1 Objectif de l'audit :** Clarifiez le but de l'audit pour toutes les parties prenantes. Par exemple, améliorer l'efficacité des systèmes d'IA, réduire les risques, etc.
+     -**1.2 Rappel des principes de base de l'IA :** Expliquez brièvement les concepts de base de l'IA, comme un cerveau électronique qui apprend à partir de données pour prendre des décisions.
 
 2. **Compréhension de l'entreprise et de ses activités**
         **2.1 Présentation de l'entreprise :** Détaillez l'histoire, les produits/services, la taille, etc. de l'entreprise.
