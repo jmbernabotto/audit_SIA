@@ -1,25 +1,30 @@
-Premier axe : L’audit des données
+* Premier axe : L’audit des données
 L’objectif est de faire l’inventaire des données et d’évaluer précisément leur qualité et leur capacité à être réconciliées. Pour ce faire, nous allons d’abord étudier indépendamment les différents silos de données, en disséquer les valeurs manquantes ou aberrantes, vérifier la conformité des indicateurs statistiques avec ce qui est éventuellement attendu par le métier.  Puis nous allons tenter une première réconciliation des différents silos et évaluer la qualité de celle-ci. Finalement, cette partie peut également s’adresser à des sociétés qui ne se seraient pas encore dotées de modèles. L’enjeu est ici d’évaluer le potentiel de vos données, d’étudier la faisabilité de vos use-cases, voire d’en faire émerger de nouveaux.
-Deuxième axe : L’audit de la modélisation.
+
+*Deuxième axe : L’audit de la modélisation.
 L’enjeu est d’évaluer la qualité théorique du modèle et de dégager les pistes d’amélioration. Il s’agit d’une étape où nous devons comprendre à la fois les objectifs de la modélisation, les contraintes diverses qui pèsent sur elle et son histoire, c’est-à-dire comment elle a été pensée et construite. Le but est de lister tous les choix forts qui ont été faits au cours de l’élaboration de l’algorithme, de les expliquer, puis éventuellement de les discuter si nous le jugeons nécessaire.
 Les grandes lignes de ce travail sont l’analyse de la phase exploratoire souvent décisive dans la construction d’un modèle, du travail de feature engineering (transformation des variables), une discussion autour du choix du modèle et des métriques d’évaluation. Vous pouvez par exemple disposer d’un modèle de deep learning dont vous appréciez la précision mais qui vous gène par son manque d’interprétabilité / explicabilité ou sa consommation en ressources (processeur, mémoire). Kernix peut vous conseiller de passer sur une méthode ensembliste de type gradient boosting, vous aider à le paramétrer pour approcher les performances du réseau de neurones et à l’interpréter pour éviter l’effet “black box”. Imaginez maintenant que votre jeu de données soit pléthorique et comprenne de très nombreuses variables, numériques, catégorielles, binaires,… Tant est si bien que votre modèle peut avoir tendance au surapprentissage.
 Kernix peut discuter de tous vos choix en matière de sélection de variables, de traitement des catégorielles, de normalisation,…, pour restituer à chaque variable sa juste expressivité et la place qui lui revient.
-Troisième axe : L’audit du code
+
+*Troisième axe : L’audit du code
 C’est un exercice de rigueur par excellence qui vise deux finalités :
-* 		Déceler les éventuelles erreurs et en mesurer l’impact.
-* 		S’il n’y a pas d’erreur, améliorer ce qui peut l’être, que ce soit la factorisation du code, sa documentation, sa parallélisation… L’algorithme peut ainsi gagner en vitesse d’exécution et en sobriété dans la consommation des ressources. Son déploiement se verra facilité ainsi que les éventuelles passations de code entre développeurs.
+    * Déceler les éventuelles erreurs et en mesurer l’impact.
+    * S’il n’y a pas d’erreur, améliorer ce qui peut l’être, que ce soit la factorisation du code, sa documentation, sa parallélisation… L’algorithme peut ainsi gagner en vitesse d’exécution et en sobriété dans la consommation des ressources. Son déploiement se verra facilité ainsi que les éventuelles passations de code entre développeurs.
 C’est une facette du travail de modélisation à ne pas négliger. Un code bien conçu est un code qui pourra être correctement maintenu et c’est un modèle qui aura une belle longévité sans accumuler une dette technique exorbitante. Il y a ici un enjeu économique de taille pour les sociétés.
-Quatrième axe : L’audit du workflow
+
+*Quatrième axe : L’audit du workflow
 Le principe consiste à auditer ce qui se produit, sur le plan technique, en amont et en aval du modèle. Comment le modèle est-il alimenté en données lors de son fonctionnement en production ? Y a-t-il des risques de latence ou de corruption des données ? L’environnement de production est-il très différent de l’environnement de développement ? Quel est le modèle réellement mis en production ? Correspond-il bien à celui développé par l’équipe de modélisation ?
 Telles sont les questions auxquelles nous nous proposons de répondre dans cette partie.
-Cinquième axe : l’audit des processus métiers
+
+*Cinquième axe : l’audit des processus métiers
 Si les quatres premiers axes sont purement techniques, celui-ci est plus fonctionnel. Il s’agit de soulever deux problématiques :
-* 		Le besoin exprimé par les métiers a-t-il été bien compris par l’équipe de modélisation ?
-* 		Les métiers comprennent-ils bien ce que fait le modèle et l’exploitent-ils correctement ?
+    *	Le besoin exprimé par les métiers a-t-il été bien compris par l’équipe de modélisation ?
+    *	Les métiers comprennent-ils bien ce que fait le modèle et l’exploitent-ils correctement ?
 Ces problématiques sont à la fois liées aux processus de communication et à l’organisation du travail dans la société, mais également à la modélisation elle-même et à ces sous-jacents scientifiques. Pour être bien utilisé et bien compris, un modèle doit être interprétable.
 Or certains modèles, souvent redoutables d’efficacité mais très complexes comme les réseaux de neurones profonds, demeurent des boîtes noires pour les data scientists eux-mêmes !
 Il y a souvent un compromis à trouver entre la précision du modèle et son explicabilité, ce compromis doit impérativement être trouvé en concertation avec les “métiers” et l’équipe de modélisation. Dans ses audits, Kernix s’évertue à vérifier que ce compromis satisfait les deux parties. S’il nous arrive de gérer ce type d’audit avec notre pôle Gestion de Projet, nous collaborons souvent avec des cabinets de conseils experts.
-Nouveaux enjeux transversaux : Éthique et sobriété énergétique
+
+*Nouveaux enjeux transversaux : Éthique et sobriété énergétique
 L’époque change et l’IA, tout à la fois, impulse et suit le mouvement de l’Histoire. Comme nous le disions en introduction, l’IA est entrée dans l’ère de la gouvernance et de la maîtrise. A ce titre, elle ne peut faire l’impasse sur les enjeux éthiques et énergétiques.
 Si le traitement des données est déjà bien encadré par la législation (RGPD en France notamment), l’UE a proposé en avril 2021, l’AI Act, un texte encadrant l’utilisation de l’IA que ce soit par les Etats ou par les sociétés privées.
 Par ailleurs, on ne s’en rend pas toujours compte mais les algorithmes d’Intelligence Artificielle consomment parfois énormément de ressources (serveurs, processeurs CPU, GPU voire TPU, serveurs mettant à disposition les données,…). Il est de la responsabilité du concepteur de minimiser à la fois la consommation d’énergie et le coût économique de fonctionnement d’un algorithme. Imaginons que votre société exploite un algorithme de NLP (traitement du langage naturel), il peut être préférable d’exploiter un réseau peu profond comme Word2vec qu’une architecture Transformers qui va nécessiter d’utiliser un GPU.
