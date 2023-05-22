@@ -1,4 +1,4 @@
-* Premier axe : L’audit des données
+*Premier axe : L’audit des données
 L’objectif est de faire l’inventaire des données et d’évaluer précisément leur qualité et leur capacité à être réconciliées. Pour ce faire, nous allons d’abord étudier indépendamment les différents silos de données, en disséquer les valeurs manquantes ou aberrantes, vérifier la conformité des indicateurs statistiques avec ce qui est éventuellement attendu par le métier.  Puis nous allons tenter une première réconciliation des différents silos et évaluer la qualité de celle-ci. Finalement, cette partie peut également s’adresser à des sociétés qui ne se seraient pas encore dotées de modèles. L’enjeu est ici d’évaluer le potentiel de vos données, d’étudier la faisabilité de vos use-cases, voire d’en faire émerger de nouveaux.
 
 *Deuxième axe : L’audit de la modélisation.
