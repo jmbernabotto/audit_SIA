@@ -98,13 +98,13 @@ Plan 2
 D'accord, je vais développer chaque section avec des détails supplémentaires et des exemples concrets.
 
 1. **Introduction**
-    1.1 Objectif de l'audit : Clarifiez le but de l'audit pour toutes les parties prenantes. Par exemple, améliorer l'efficacité des systèmes d'IA, réduire les risques, etc.
-    1.2 Rappel des principes de base de l'IA : Expliquez brièvement les concepts de base de l'IA, comme un cerveau électronique qui apprend à partir de données pour prendre des décisions.
+    **1.1 Objectif de l'audit :** Clarifiez le but de l'audit pour toutes les parties prenantes. Par exemple, améliorer l'efficacité des systèmes d'IA, réduire les risques, etc.
+    **1.2 Rappel des principes de base de l'IA :** Expliquez brièvement les concepts de base de l'IA, comme un cerveau électronique qui apprend à partir de données pour prendre des décisions.
 
 2. **Compréhension de l'entreprise et de ses activités**
-    2.1 Présentation de l'entreprise : Détaillez l'histoire, les produits/services, la taille, etc. de l'entreprise.
-    2.2 Compréhension des systèmes d'IA en place : Découvrez les différents types d'IA utilisés, leurs applications, etc. Par exemple, si l'entreprise utilise un chatbot pour le service client.
-    2.3 Identification des parties prenantes de l'IA au sein de l'entreprise : Identifiez qui est responsable de quoi en ce qui concerne l'IA.
+    **2.1 Présentation de l'entreprise :** Détaillez l'histoire, les produits/services, la taille, etc. de l'entreprise.
+    **2.2 Compréhension des systèmes d'IA en place :** Découvrez les différents types d'IA utilisés, leurs applications, etc. Par exemple, si l'entreprise utilise un chatbot pour le service client.
+    **2.3 Identification des parties prenantes de l'IA au sein de l'entreprise :** Identifiez qui est responsable de quoi en ce qui concerne l'IA.
 
 3. **Analyse des systèmes d'IA**
     3.1 Évaluation de la performance des systèmes d'IA : Examinez l'efficacité de l'IA. Par exemple, si le chatbot répond correctement aux questions des clients.
