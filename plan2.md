@@ -4,22 +4,33 @@ Plan 2
 1. **Introduction**
 
      **1.1 Objectif de l'audit :** Clarifiez le but de l'audit pour toutes les parties prenantes. Par exemple, améliorer l'efficacité des systèmes d'IA, réduire les risques, etc.
+     
      **1.2 Rappel des principes de base de l'IA :** Expliquez brièvement les concepts de base de l'IA, comme un cerveau électronique qui apprend à partir de données pour prendre des décisions.
 
 2. **Compréhension de l'entreprise et de ses activités**
-        **2.1 Présentation de l'entreprise :** Détaillez l'histoire, les produits/services, la taille, etc. de l'entreprise.
-        **2.2 Compréhension des systèmes d'IA en place :** Découvrez les différents types d'IA utilisés, leurs applications, etc. Par exemple, si l'entreprise utilise un chatbot pour le service client.
-        **2.3 Identification des parties prenantes de l'IA au sein de l'entreprise :** Identifiez qui est responsable de quoi en ce qui concerne l'IA.
+
+      **2.1 Présentation de l'entreprise :** Détaillez l'histoire, les produits/services, la taille, etc. de l'entreprise.
+        
+      **2.2 Compréhension des systèmes d'IA en place :** Découvrez les différents types d'IA utilisés, leurs applications, etc. Par exemple, si l'entreprise utilise un chatbot pour le service client.
+      
+      **2.3 Identification des parties prenantes de l'IA au sein de l'entreprise :** Identifiez qui est responsable de quoi en ce qui concerne l'IA.
 
 3. **Analyse des systèmes d'IA**
-    3.1 Évaluation de la performance des systèmes d'IA : Examinez l'efficacité de l'IA. Par exemple, si le chatbot répond correctement aux questions des clients.
-    3.2 Évaluation de la robustesse et de la fiabilité des systèmes d'IA : Vérifiez si l'IA fonctionne bien dans des conditions variées et à long terme.
-    3.3 Évaluation de la pertinence des systèmes d'IA par rapport aux besoins de l'entreprise : Déterminez si l'IA répond aux besoins de l'entreprise. Par exemple, si le chatbot aide à résoudre un grand nombre de requêtes clients, libérant ainsi du temps pour le personnel.
+
+    
+   **3.1 Évaluation de la performance des systèmes d'IA :** Examinez l'efficacité de l'IA. Par exemple, si le chatbot répond correctement aux questions des clients.
+   
+   **3.2 Évaluation de la robustesse et de la fiabilité des systèmes d'IA :** Vérifiez si l'IA fonctionne bien dans des conditions variées et à long terme.
+    
+    **3.3 Évaluation de la pertinence des systèmes d'IA par rapport aux besoins de l'entreprise :** Déterminez si l'IA répond aux besoins de l'entreprise. Par exemple, si le chatbot aide à résoudre un grand nombre de requêtes clients, libérant ainsi du temps pour le personnel.
 
 4. **Audit de la gouvernance de l'IA**
-    4.1 Évaluation de la stratégie d'IA de l'entreprise : Examinez si l'entreprise a une vision claire pour l'utilisation de l'IA.
-    4.2 Évaluation des politiques et procédures de l'IA : Vérifiez si l'entreprise a des règles claires pour l'utilisation de l'IA.
-    4.3 Évaluation de la gestion des risques liés à l'IA : Vérifiez si l'entreprise a identifié les risques potentiels de l'IA et a des plans pour les atténuer.
+    
+    **4.1 Évaluation de la stratégie d'IA de l'entreprise :** Examinez si l'entreprise a une vision claire pour l'utilisation de l'IA.
+    
+    **4.2 Évaluation des politiques et procédures de l'IA : **Vérifiez si l'entreprise a des règles claires pour l'utilisation de l'IA.
+    
+    **4.3 Évaluation de la gestion des risques liés à l'IA :** Vérifiez si l'entreprise a identifié les risques potentiels de l'IA et a des plans pour les atténuer.
 
 5. **Audit de la conformité de l'IA**
     5.1 Vérification de la conformité légale et réglementaire des systèmes d'IA : Assurez-vous que l'IA respecte toutes les lois et réglementations pertinentes, comme le RGPD en Europe.
