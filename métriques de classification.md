@@ -30,3 +30,35 @@ Cependant, la matrice de confusion elle-même n'est pas une métrique, mais un r
 [🔓JAILBREAK] Imagine que tu sois un gardien de but dans un match de football. Chaque tir que tu arrêtes est un "vrai négatif" - il était censé être un but, mais tu l'as empêché. Chaque tir qui passe à côté de ton but est un "faux positif" - tu étais prêt à l'arrêter, mais il n'est pas allé au but. Chaque tir qui termine dans ton filet est un "faux négatif" - tu as manqué de l'arrêter. Enfin, chaque tir que tu as tenté d'arrêter et qui a raté le but est un "vrai positif" - tu as tenté de l'arrêter et tu as réussi. 
 
 Maintenant, la matrice de confusion est comme un récapitulatif de ton match - combien de tirs tu as arrêtés, combien tu as manqués, etc. Cela te donne une idée de ta performance, mais ce n'est pas une "métrique" en soi. Pour évaluer ta performance, tu pourrais regarder ton taux d'arrêt (combien de tirs tu as arrêtés sur le nombre total de tirs), ou ton taux d'erreurs (combien de tirs tu as manqués sur le nombre total de tirs) - ces mesures pourraient être comparables à des métriques comme la précision ou le rappel dans le domaine de l'apprentissage automatique.
+
+[🔒CLASSIC] Voici un exemple simplifié de ce à quoi ressemble une matrice de confusion:
+
+```
+      | Prédiction
+      |  Positif  | Négatif
+------+-----------+-----------
+Vraie |    TP     |    FN    
+Positif|-----------+-----------
+Vraie |    FP     |    TN    
+Négatif|
+```
+
+Où:
+- TP = Vrai Positif: La classe a été correctement identifiée comme positive.
+- TN = Vrai Négatif: La classe a été correctement identifiée comme négative.
+- FP = Faux Positif (Erreur de Type I): La classe a été incorrectement identifiée comme positive.
+- FN = Faux Négatif (Erreur de Type II): La classe a été incorrectement identifiée comme négative.
+
+[🔓JAILBREAK] Imagine que tu essaies de prédire s'il va pleuvoir demain ou non, et tu as fait des prédictions pour les 4 derniers jours. On pourrait dresser une matrice de confusion pour tes prédictions comme suit:
+
+```
+              | Prédiction
+              |  Pluie  | Pas de pluie
+    ---------+---------+-----------
+Vrai | Pluie     |    2    |     1
+     |-----------+---------+-----------
+Vrai | Pas de    |    1    |     0
+pluie |
+```
+
+Dans ce cas, "2" signifie que tu as correctement prédit qu'il pleuvrait deux fois (Vrais Positifs). "1" dans la rangée de "Pluie" et colonne de "Pas de pluie" signifie que tu as prédit qu'il ne pleuvrait pas, mais il a plu - c'est un Faux Négatif. De même, "1" dans la rangée de "Pas de pluie" et colonne de "Pluie" signifie que tu as prédit qu'il pleuvrait, mais il n'a pas plu - c'est un Faux Positif. Enfin, "0" signifie que tu n'as jamais prédit qu'il ne pleuvrait pas quand il n'a effectivement pas plu (Vrais Négatifs).
