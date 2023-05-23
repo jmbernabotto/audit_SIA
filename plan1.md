@@ -11,9 +11,12 @@ Voici une ébauche de plan pour un audit des systèmes d'intelligence artificiel
     - Méthodologie de l'audit
 
          1.1 **Préparation de l'audit :** 
-              - **Planification :** Définir les objectifs, la portée, le calendrier et les ressources de l'audit. Identifier les parties prenantes clés et établir des points de contact.
-              - **Collecte d'informations préliminaires :** Recueillir des informations sur le système d'IA, y compris sa conception, ses fonctionnalités, ses utilisations, et sa gouvernance.
-              - **Évaluation des risques préliminaires :** Identifier les risques potentiels associés au système d'IA et planifier l'audit en conséquence.
+
+             - **Planification :** Définir les objectifs, la portée, le calendrier et les ressources de l'audit. Identifier les parties prenantes clés et établir des points de contact.
+              
+			- **Collecte d'informations préliminaires :** Recueillir des informations sur le système d'IA, y compris sa conception, ses fonctionnalités, ses utilisations, et sa gouvernance.
+             
+			 - **Évaluation des risques préliminaires :** Identifier les risques potentiels associés au système d'IA et planifier l'audit en conséquence.
 
          1.2 **Exécution de l'audit :** 
               - **Examen détaillé :** Examiner en profondeur la conception, la mise en œuvre, la gestion et le contrôle du système d'IA.
