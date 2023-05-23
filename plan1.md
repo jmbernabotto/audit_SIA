@@ -12,7 +12,7 @@ Voici une ébauche de plan pour un audit des systèmes d'intelligence artificiel
 
     1.1 **Préparation de l'audit :** 
 
-    - **Planification :** Définir les objectifs, la portée, le calendrier et les ressources de l'audit. Identifier les parties prenantes clés et établir des points de contact.
+	- **Planification :** Définir les objectifs, la portée, le calendrier et les ressources de l'audit. Identifier les parties prenantes clés et établir des points de contact.
               
 	- **Collecte d'informations préliminaires :** Recueillir des informations sur le système d'IA, y compris sa conception, ses fonctionnalités, ses utilisations, et sa gouvernance.
              
@@ -26,15 +26,15 @@ Voici une ébauche de plan pour un audit des systèmes d'intelligence artificiel
               
 	- **Entretiens :** Mener des entretiens avec les parties prenantes clés pour obtenir des informations de première main sur le fonctionnement et la gestion du système d'IA.
 
-         1.3 **Rapport d'audit :** 
+    1.3 **Rapport d'audit :** 
 
-        - **Élaboration du rapport :** Rédiger un rapport détaillé qui documente les résultats de l'audit, y compris les forces et les faiblesses du système d'IA, les risques identifiés et leur gravité, et les recommandations pour améliorer le système.
+    - **Élaboration du rapport :** Rédiger un rapport détaillé qui documente les résultats de l'audit, y compris les forces et les faiblesses du système d'IA, les risques identifiés et leur gravité, et les recommandations pour améliorer le système.
               
 		- **Revue et approbation :** Soumettre le rapport à une revue par les pairs pour assurer la qualité et l'exactitude, puis obtenir l'approbation finale du responsable de l'audit.
 
-         1.4. **Suivi de l'audit :** 
+    1.4. **Suivi de l'audit :** 
 
-        - **Plan d'action :** Travailler avec les parties prenantes pour élaborer un plan d'action basé sur les recommandations de l'audit.
+    - **Plan d'action :** Travailler avec les parties prenantes pour élaborer un plan d'action basé sur les recommandations de l'audit.
               
 		- **Suivi et revue :** Suivre la mise en œuvre du plan d'action et effectuer des revues périodiques pour s'assurer que les améliorations sont effectuées comme prévu.
 
