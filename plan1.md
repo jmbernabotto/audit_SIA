@@ -30,13 +30,13 @@ Voici une ébauche de plan pour un audit des systèmes d'intelligence artificiel
 
     - **Élaboration du rapport :** Rédiger un rapport détaillé qui documente les résultats de l'audit, y compris les forces et les faiblesses du système d'IA, les risques identifiés et leur gravité, et les recommandations pour améliorer le système.
               
-		- **Revue et approbation :** Soumettre le rapport à une revue par les pairs pour assurer la qualité et l'exactitude, puis obtenir l'approbation finale du responsable de l'audit.
+	- **Revue et approbation :** Soumettre le rapport à une revue par les pairs pour assurer la qualité et l'exactitude, puis obtenir l'approbation finale du responsable de l'audit.
 
     1.4. **Suivi de l'audit :** 
 
     - **Plan d'action :** Travailler avec les parties prenantes pour élaborer un plan d'action basé sur les recommandations de l'audit.
               
-		- **Suivi et revue :** Suivre la mise en œuvre du plan d'action et effectuer des revues périodiques pour s'assurer que les améliorations sont effectuées comme prévu.
+	- **Suivi et revue :** Suivre la mise en œuvre du plan d'action et effectuer des revues périodiques pour s'assurer que les améliorations sont effectuées comme prévu.
 
          Il est important de noter que la méthodologie d'audit doit être adaptée en fonction des spécificités de chaque système d'IA et du contexte de l'organisation. Il est également essentiel de veiller à ce que l'équipe d'audit possède les compétences techniques nécessaires pour comprendre et évaluer le système d'IA.
 
