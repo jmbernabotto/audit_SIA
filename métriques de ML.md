@@ -62,3 +62,25 @@ pluie |
 ```
 
 Dans ce cas, "2" signifie que tu as correctement prédit qu'il pleuvrait deux fois (Vrais Positifs). "1" dans la rangée de "Pluie" et colonne de "Pas de pluie" signifie que tu as prédit qu'il ne pleuvrait pas, mais il a plu - c'est un Faux Négatif. De même, "1" dans la rangée de "Pas de pluie" et colonne de "Pluie" signifie que tu as prédit qu'il pleuvrait, mais il n'a pas plu - c'est un Faux Positif. Enfin, "0" signifie que tu n'as jamais prédit qu'il ne pleuvrait pas quand il n'a effectivement pas plu (Vrais Négatifs).
+
+
+[🔒CLASSIC] Plusieurs métriques sont couramment utilisées pour évaluer les modèles de régression en apprentissage automatique. Voici quelques-unes d'entre elles :
+
+1. **Erreur quadratique moyenne (MSE, Mean Squared Error):** Elle est calculée comme la moyenne des carrés des erreurs. Plus la MSE est élevée, plus les erreurs sont grandes.
+
+2. **Racine de l'erreur quadratique moyenne (RMSE, Root Mean Squared Error):** C'est la racine carrée de la MSE. Elle a l'avantage d'être en unités du variable cible.
+
+3. **Erreur absolue moyenne (MAE, Mean Absolute Error):** C'est la moyenne des valeurs absolues des erreurs. Elle donne une idée de l'ampleur des erreurs sans surestimer les grandes erreurs, comme le fait la MSE.
+
+4. **Coefficient de détermination (R^2, R-squared):** Il indique la proportion de la variance de la variable dépendante qui est prévisible à partir des variables indépendantes. Un R^2 de 1 indique une prédiction parfaite.
+
+[🔓JAILBREAK] Pour illustrer ces métriques, imaginons que tu essaies de prédire la température en fonction de différents facteurs, comme l'heure de la journée, la saison, etc.
+
+1. **MSE:** Disons que tes prévisions pour une semaine donnent les erreurs suivantes en degrés Celsius : [+2, -1, +3, -2, +1, -3, +2]. L'erreur quadratique moyenne serait la moyenne de ces valeurs au carré : (4 + 1 + 9 + 4 + 1 + 9 + 4)/7 = 4.57.
+
+2. **RMSE:** Il s'agit simplement de la racine carrée de la MSE, ce qui donnerait environ 2.14 dans cet exemple.
+
+3. **MAE:** C'est la moyenne des valeurs absolues de ces erreurs, donc (+2 + 1 + 3 + 2 + 1 + 3 + 2)/7 = 2.
+
+4. **R^2:** Imaginons que, sans ton modèle, tu te serais contenté de prédire toujours la moyenne des températures de la semaine. Comparons cette stratégie à ton modèle actuel. Si ton modèle est meilleur, tu obtiendras un R^2 plus proche de 1. Par exemple, si la moyenne des températures était de 20°C et que ton modèle a prédit [22, 19, 23, 18, 21, 17, 22] alors que les températures réelles étaient [20, 20, 20, 20, 20, 20, 20], alors le R^2 serait proche de 0, car ton modèle n'améliore pas les prédictions par rapport à la simple prédiction de la moyenne.
+
