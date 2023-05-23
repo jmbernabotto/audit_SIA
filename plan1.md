@@ -9,6 +9,7 @@ Voici une ébauche de plan pour un audit des systèmes d'intelligence artificiel
     - Objectifs de l'audit
     - Portée de l'audit
     - Méthodologie de l'audit
+
          1.1 **Préparation de l'audit :** 
               - **Planification :** Définir les objectifs, la portée, le calendrier et les ressources de l'audit. Identifier les parties prenantes clés et établir des points de contact.
               - **Collecte d'informations préliminaires :** Recueillir des informations sur le système d'IA, y compris sa conception, ses fonctionnalités, ses utilisations, et sa gouvernance.
