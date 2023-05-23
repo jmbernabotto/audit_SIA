@@ -5,10 +5,10 @@ Plan Audit SIA
 Voici une ébauche de plan pour un audit des systèmes d'intelligence artificielle (IA) :
 
 1. **Introduction**
-    - Contexte de l'audit
-    - Objectifs de l'audit
-    - Portée de l'audit
-    - Méthodologie de l'audit
+- Contexte de l'audit
+- Objectifs de l'audit
+- Portée de l'audit
+- Méthodologie de l'audit
 
     1.1 **Préparation de l'audit :** 
 
