@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fiches IA - Espace d'audit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">
+        <span class="logo-mark">IA</span>
+        <span class="logo-text">Espace audit</span>
+      </div>
+      <nav class="actions">
+        <button class="btn btn-ghost" id="toggle-theme" aria-label="Basculer le thème">
+          <span class="icon">🌙</span>
+          <span class="label">Mode sombre</span>
+        </button>
+        <a class="btn" href="#bibliotheque">Accéder aux fiches</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Plateforme d'accompagnement IA</p>
+          <h1>Construisez des projets d'intelligence artificielle responsables</h1>
+          <p class="lead">
+            Retrouvez en un coup d'œil les fiches pratiques, guides méthodologiques et
+            ressources réglementaires pour cadrer et auditer vos systèmes d'intelligence
+            artificielle tout au long de leur cycle de vie.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="#bibliotheque">Explorer la bibliothèque</a>
+            <button class="btn btn-ghost" id="open-intro">Comment utiliser la plateforme ?</button>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit">
+            <div class="orbit__planet"></div>
+            <div class="orbit__satellite"></div>
+            <div class="orbit__satellite orbit__satellite--delayed"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="library" id="bibliotheque">
+        <div class="library-header">
+          <div>
+            <h2>Bibliothèque des fiches</h2>
+            <p class="muted">Filtrez les fiches par thématique, maturité du projet ou organisme de référence.</p>
+          </div>
+          <div class="library-controls">
+            <label class="search" for="search">
+              <span class="icon">🔍</span>
+              <input id="search" type="search" placeholder="Rechercher une fiche, un mot-clé, un organisme..." autocomplete="off" />
+            </label>
+            <div class="select">
+              <label for="sort" class="sr-only">Trier les résultats</label>
+              <select id="sort">
+                <option value="score">Pertinence</option>
+                <option value="title">Titre (A → Z)</option>
+                <option value="date">Plus récent</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="filters" aria-label="Filtres">
+          <div class="filter-group">
+            <p class="filter-title">Phase du projet</p>
+            <div id="phase-filters" class="filter-chips" role="group"></div>
+          </div>
+          <div class="filter-group">
+            <p class="filter-title">Thématiques</p>
+            <div id="topic-filters" class="filter-chips" role="group"></div>
+          </div>
+        </div>
+
+        <div class="empty" id="empty-state" hidden>
+          <div class="empty__icon">🧭</div>
+          <h3>Aucun résultat trouvé</h3>
+          <p>
+            Ajustez vos filtres ou votre recherche pour retrouver les fiches pertinentes.
+          </p>
+          <button class="btn btn-ghost" id="reset-filters">Réinitialiser les filtres</button>
+        </div>
+
+        <div class="grid" id="cards"></div>
+      </section>
+    </main>
+
+    <dialog id="modal" aria-labelledby="modal-title">
+      <div class="modal__header">
+        <h3 id="modal-title"></h3>
+        <button class="btn-icon" id="close-modal" aria-label="Fermer">
+          <span aria-hidden="true">✕</span>
+        </button>
+      </div>
+      <div class="modal__body">
+        <p id="modal-summary"></p>
+        <div class="modal__meta">
+          <div>
+            <p class="meta-title">Phase du projet</p>
+            <p id="modal-phase"></p>
+          </div>
+          <div>
+            <p class="meta-title">Thématiques clés</p>
+            <ul id="modal-topics"></ul>
+          </div>
+          <div>
+            <p class="meta-title">Organisme</p>
+            <p id="modal-organization"></p>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <a class="btn" id="modal-link" target="_blank" rel="noopener">Ouvrir la ressource</a>
+      </div>
+    </dialog>
+
+    <dialog id="intro-modal" aria-labelledby="intro-title">
+      <div class="modal__header">
+        <h3 id="intro-title">Méthode d'exploration</h3>
+        <button class="btn-icon" id="close-intro" aria-label="Fermer">
+          <span aria-hidden="true">✕</span>
+        </button>
+      </div>
+      <div class="modal__body">
+        <ol class="intro-steps">
+          <li>
+            <span class="step-number">1</span>
+            <div>
+              <h4>Cadrez votre besoin</h4>
+              <p>Choisissez la phase de votre projet et appliquez les filtres correspondants.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">2</span>
+            <div>
+              <h4>Affinez par thématique</h4>
+              <p>
+                Combinez les thématiques clés pour obtenir une sélection ciblée de documents.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">3</span>
+            <div>
+              <h4>Consultez et partagez</h4>
+              <p>
+                Ouvrez la fiche détaillée, enregistrez vos favoris et partagez-les avec vos
+                équipes.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </dialog>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="card__header">
+          <p class="card__phase"></p>
+          <button class="btn-icon card__bookmark" title="Ajouter aux favoris" aria-label="Ajouter aux favoris">
+            <span class="icon" aria-hidden="true">☆</span>
+          </button>
+        </div>
+        <h3 class="card__title"></h3>
+        <p class="card__summary"></p>
+        <div class="card__topics" aria-label="Thématiques"></div>
+        <div class="card__footer">
+          <span class="card__organization"></span>
+          <button class="btn-link">Voir la fiche</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="fiches.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
